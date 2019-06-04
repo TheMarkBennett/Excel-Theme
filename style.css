@@ -1,0 +1,41 @@
+/*
+Theme Name: New Excel Theme
+Template: UCF-WordPress-Theme
+Author:       Mark Bennett
+Description:  Sidebar support
+GitHub Theme URI: https://github.com/TheMarkBennett/excel
+ Version:      1.0.020
+*/
+
+.advanced-sidebar-menu {
+	background-color: #edecea
+}
+.advanced-sidebar-menu ul {
+	padding-left: 0;
+}
+
+.advanced-sidebar-menu .parent-sidebar-menu { margin: 0; list-style-type: none;}
+
+.advanced-sidebar-menu .child-sidebar-menu {margin: 0; list-style-type: none; padding: 0}
+
+.advanced-sidebar-menu li {
+	margin: 0; list-style-type: none;
+}
+
+.advanced-sidebar-menu li a {
+	  display: block;
+    border-bottom: 2px solid #fff;
+    color: #4a3c31;
+    padding: .7em;
+    transition: background-color .3s;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.advanced-sidebar-menu a:hover{background-color:#b7b1ad; text-decoration:none;}
+
+.advanced-sidebar-menu .current_page_item>a{border-left:solid 5px #fc0}
+#advanced_sidebar_menu-2 li{margin-bottom:0}
+
+img {max-width: 100%; height: auto; }
